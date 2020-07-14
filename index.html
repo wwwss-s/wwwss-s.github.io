@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据可视化</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fonts/icomoon.css">
+    <!-- js -->
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/index.js"></script>
+    <!-- 图表 -->
+    <script src="js/echarts.js"></script>
+    <script src="js/china.js"></script>
+</head>
+
+<body>
+    <div class="contain w">
+        <!-- 第一列 -->
+        <div class="column">
+            <!-- 总数据展示 -->
+            <div class="borImg outer">
+                <div class="content">
+                    <ul class="total">
+                        <li>
+                            <h1>2,190</h1>
+                            <p>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>设备总数</span>
+                            </p>
+                        </li>
+                        <li>
+                            <h1>190</h1>
+                            <p>
+                                <i class="icon-dot" style="color:#6ACCA3"></i>
+                                <span>季度新增</span>
+                            </p>
+                        </li>
+                        <li>
+                            <h1>3,001</h1>
+                            <p>
+                                <i class="icon-dot" style="color:#6ACCA3"></i>
+                                <span>运营设备</span>
+                            </p>
+                        </li>
+                        <li>
+                            <h1>108</h1>
+                            <p>
+                                <i class="icon-dot" style="color:#ED3F35"></i>
+                                <span>异常设备</span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 故障监控 -->
+            <div class="borImg monitor">
+                <div class="content">
+                    <div class="device">
+                        <h3>
+                            <span class="active">故障设备监控</span>
+                            <span>异常设备监控</span>
+                        </h3>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li>异常时间</li>
+                            <li>设备地址</li>
+                            <li>异常代码</li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li class="active">
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                            <li>
+                                <i class="icon-dot" style="color:#006CFF"></i>
+                                <span>20200706</span>
+                                <span class="address">深圳市宝安区石岩街道松柏路创维工业园2栋南区407</span>
+                                <span>666666</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 点位分布 -->
+            <div class="borImg pie">
+                <div class="content">
+                    <div class="show">
+                        <h3>点位分布统计</h3>
+                        <div class="picShow"></div>
+                    </div>
+                    <div class="dataShow">
+                        <h1>320,100</h1>
+                        <p>
+                            <i class="icon-dot" style="color:#ed3f35"></i>
+                            <span>点位总数</span>
+                        </p>
+                        <h1>418</h1>
+                        <p>
+                            <i class="icon-dot" style="color:#eacf19"></i>
+                            <span>本月新增</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第二列 -->
+        <div class="column">
+            <!-- 设备数据统计 -->
+            <div class="deviceShow">
+                <div class="dataTitle">
+                    <h3>
+                        <i class="icon-cube"></i>
+                        设备数据统计
+                    </h3>
+                </div>
+                <div class="dataMap">
+
+                </div>
+            </div>
+            <!-- 全国用户总量统计 -->
+            <div class="borImg userCal">
+                <div class="content">
+                    <div class="barChart">
+                        <h3>全国用户总量统计</h3>
+                        <div class="barShow">
+
+                        </div>
+                    </div>
+                    <div class="userShow">
+                        <h1>120,899</h1>
+                        <p>
+                            <i class="icon-dot" style="color:#ed3f35"></i>
+                            <span>用户总量</span>
+                        </p>
+                        <h1>248</h1>
+                        <p>
+                            <i class="icon-dot" style="color:#eacf19"></i>
+                            <span>本月新增</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第三列 -->
+        <div class="column">
+            <!-- 每天数据展示 -->
+            <div class="borImg day">
+                <div class="content">
+                    <div class="dayNav clearfix">
+                        <ul>
+                            <li><a href="javascript:;">365天</a></li>
+                            <li><a href="javascript:;">90天</a></li>
+                            <li class="active"><a href="javascript:;">30天</a></li>
+                            <li><a href="javascript:;">24小时</a></li>
+                        </ul>
+                    </div>
+                    <div class="dayData">
+                        <div class="left">
+                            <h1>1,987</h1>
+                            <p>
+                                <i class="icon-dot" style="color:#ed3f35"></i>
+                                <span>订单量</span>
+                            </p>
+                        </div>
+                        <div class="right">
+                            <h1>3834</h1>
+                            <p>
+                                <i class="icon-dot" style="color:#eacf19"></i>
+                                <span>销售额(万元)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 销售额统计 -->
+            <div class="borImg sale">
+                <div class="content">
+                    <div class="saleNav clearfix">
+                        <ul>
+                            <li>
+                                <h1>销售额统计</h1>
+                            </li>
+                            <li><a href="javascript:;">年</a></li>
+                            <li><a href="javascript:;">季</a></li>
+                            <li class="active"><a href="javascript:;">月</a></li>
+                            <li><a href="javascript:;">周</a></li>
+                        </ul>
+                    </div>
+                    <div class="dotted"></div>
+                </div>
+            </div>
+            <!-- 渠道、销售进度详细信息 -->
+            <div class="details">
+                <!-- 渠道分布 -->
+                <div class="borImg channel">
+                    <div class="content">
+                        <h1>渠道分布</h1>
+                        <ul>
+                            <li>
+                                <h3>39 <span>%</span></h3>
+                                <p>
+                                    <i class="icon-plane" style="color: #4c9bfd;"></i>
+                                    机场
+                                </p>
+                            </li>
+                            <li>
+                                <h3>28 <span>%</span></h3>
+                                <p>
+                                    <i class="icon-bag" style="color: #4c9bfd;"></i>
+                                    商场
+                                </p>
+                            </li>
+                            <li>
+                                <h3>20 <span>%</span></h3>
+                                <p>
+                                    <i class="icon-train" style="color: #4c9bfd;"></i>
+                                    地铁
+                                </p>
+                            </li>
+                            <li>
+                                <h3>13 <span>%</span></h3>
+                                <p>
+                                    <i class="icon-bus" style="color: #4c9bfd;"></i>
+                                    火车站
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 一季度销售进度 -->
+                <div class="borImg sell">
+                    <div class="content">
+                        <h1>一季度销售进度</h1>
+                        <div class="box">
+                            <div class="sellTable">
+                                
+                            </div>
+                            <h1>75<span>%</span></h1>
+                        </div>
+                        <div class="sellShow">
+                            <div class="left">
+                                <h1>1,321</h1>
+                                <p>
+                                    <i class="icon-dot" style="color:#ed3f35"></i>
+                                    <span>销售额(万元)</span>
+                                </p>
+                            </div>
+                            <div class="right">
+                                <h1>150%</h1>
+                                <p>
+                                    <i class="icon-dot" style="color:#eacf19"></i>
+                                    <span>同比增长</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 排行榜 -->
+            <div class="borImg rank">
+                <div class="content">
+                    <!-- 全国热榜 -->
+                    <div class="country">
+                        <h1>全国热榜</h1>
+                        <ol>
+                            <li><i class="icon-cup1" style="color: #d93f36;"></i><span>可爱多</span></li>
+                            <li><i class="icon-cup2" style="color: #68d8fe;"></i><span>哇哈哈</span></li>
+                            <li><i class="icon-cup3" style="color: #4c9bfd;"></i><span>喜之郎</span></li>
+                        </ol>
+                    </div>
+                    <!-- 各省热销 -->
+                    <div class="province">
+                        <h1>各省热销</h1>
+                        <ul>
+                            <li class="active">
+                                <span>北京</span>
+                                <span>25,179</span>
+                                <i class="icon-up" style="color: #DC3C33"></i>
+                            </li>
+                            <li>
+                                <span>河北</span>
+                                <span>23,252</span>
+                                <i class="icon-down" style="color: #36BE90"></i>
+                            </li>
+                            <li>
+                                <span>上海</span>
+                                <span>20,760</span>
+                                <i class="icon-up" style="color: #DC3C33"></i>
+                            </li>
+                            <li>
+                                <span>江苏</span>
+                                <span>23,252</span>
+                                <i class="icon-down" style="color: #36BE90"></i>
+                            </li>
+                            <li>
+                                <span>山东</span>
+                                <span>20,760</span>
+                                <i class="icon-up" style="color: #DC3C33"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 近30日 -->
+                    <div class="lately">
+                        <div class="day30">
+                            <span>近30日</span>
+                        </div>
+                        <div class="brand">
+                            <ul>
+                                <li>
+                                    <span>可爱多</span>
+                                    <span>9,086</span>
+                                    <i class="icon-up" style="color: #DC3C33"></i>
+                                </li>
+                                <li>
+                                    <span>哇哈哈</span>
+                                    <span>8,341</span>
+                                    <i class="icon-up" style="color: #DC3C33"></i>
+                                </li>
+                                <li>
+                                    <span>喜之郎</span>
+                                    <span>7,407</span>
+                                    <i class="icon-up" style="color: #DC3C33"></i>
+                                </li>
+                                <li>
+                                    <span>八喜 </span>
+                                    <span>6,080</span>
+                                    <i class="icon-up" style="color: #DC3C33"></i>
+                                </li>
+                                <li>
+                                    <span>小洋人</span>
+                                    <span>6,724</span>
+                                    <i class="icon-up" style="color: #DC3C33"></i>
+                                </li>
+                                <li>
+                                    <span>好多鱼</span>
+                                    <span>2,170</span>
+                                    <i class="icon-up" style="color: #DC3C33"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
